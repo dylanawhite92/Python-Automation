@@ -23,7 +23,7 @@ def getAnswer(answerNumber):
     elif answerNumber == 9:
         return 'Very doubtful.'
 
-# Store random int in variable r
+# Store random int between 1 and 9 in variable r
 r = random.randint(1,9)
 
 # Store function in variable for brevity
