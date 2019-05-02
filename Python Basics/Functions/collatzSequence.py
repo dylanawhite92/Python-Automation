@@ -19,6 +19,7 @@ try:
     # Loop until integer reaches 1
     while n != 1:
         n = collatz(int(n))
+        
 # Handle input validation
 except ValueError:
     print('Value Error. Please enter an integer.')
